@@ -5,7 +5,9 @@ function sumIs (n)    {
 
 	// do the actual sum
 
-
+	for(i=0; i<=n.lenght; i++)    {
+		summation += n[i];
+	}
 
 	return summation;
 }
